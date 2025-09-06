@@ -5,3 +5,6 @@
 
 - ## Fråga 2
     Git commit sparar ändringar du gjorde i filerna som lades till i git add (alla om "." användes som argument) lokalt. Om du t.ex. skulle ha gjort någonting dumt kan du gå tillbaka till den senaste versionen och få det att fungera igen och jämföra skilnaderna mellan den sensate fungerande och det nya för att lättare identifiera felet.
+
+- ## Fråga 3
+    Att flera personer kan arbeta parallellt på samma projekt i olika grenar och sedan föra samman dem. Pull requests frågar grenen man mergar med att använda ändringarna gjorda på grenen som den görs ifrån. Grenar är kopior av andra grenar eller main som ändringar kan göras i utan att störa andras arbete eller göra dumma saker i main. Merge används för att föra samman olika grenar till en gren med bådas ändringar.
